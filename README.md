@@ -26,7 +26,7 @@ nginx-deploy-5d59d67564-8pqfz   1/1     Running   0          2m21s
 $
 ```
 
-* Now the image version is change to nginx:latest
+* Now the image version is changed to nginx:latest
 * kubectl apply -f deployment.yaml --record
   The old pods are terminated and the new pods take place.
 
