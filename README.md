@@ -10,6 +10,7 @@ Show how to role back with kubectl
 
 At this point 1 the following are created:
 
+```
 $ *kubectl get deployments.apps*
 NAME           READY   UP-TO-DATE   AVAILABLE   AGE
 nginx-deploy   2/2     2            2           2m16s
@@ -23,4 +24,5 @@ NAME                            READY   STATUS    RESTARTS   AGE
 nginx-deploy-5d59d67564-6cx9p   1/1     Running   0          2m21s
 nginx-deploy-5d59d67564-zp9bk   1/1     Running   0          2m21s
 $
+```
 
